@@ -79,18 +79,18 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-08 07:54:34</sys_created_on>
         <sys_id>6f8946a2c32e2e106a8050e1b40131ac</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>category</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ITSM Incident">8897ca2ec3ea2e106a8050e1b4013135</sys_scope>
         <sys_update_name>item_option_new_6f8946a2c32e2e106a8050e1b40131ac</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-08 07:56:59</sys_updated_on>
+        <sys_updated_on>2025-07-08 08:07:40</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>18</type>
+        <type>5</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
