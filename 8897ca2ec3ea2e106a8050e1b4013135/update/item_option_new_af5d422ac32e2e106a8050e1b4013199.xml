@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
-        <attributes/>
+        <attributes>ref_qual_elements=category</attributes>
         <cat_item display_value="Create ITSM Incident ">d9c78eeec3ea2e106a8050e1b40131f1</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
-        <choice_field>category</choice_field>
-        <choice_table>incident</choice_table>
+        <choice_field/>
+        <choice_table/>
         <conversational_label/>
         <create_roles/>
         <default_html_value/>
@@ -22,7 +22,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>category</field>
+        <field>subcategory</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -31,25 +31,25 @@
         <instructions/>
         <layout>normal</layout>
         <list_table/>
-        <lookup_label>category</lookup_label>
+        <lookup_label>label</lookup_label>
         <lookup_price/>
-        <lookup_table>incident</lookup_table>
-        <lookup_unique>false</lookup_unique>
-        <lookup_value>category</lookup_value>
+        <lookup_table>sys_choice</lookup_table>
+        <lookup_unique>true</lookup_unique>
+        <lookup_value>value</lookup_value>
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>category</name>
+        <name>subcategory</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>100</order>
+        <order>200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Category</question_text>
+        <question_text>Subcategory</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -58,7 +58,7 @@
         <record/>
         <record_producer_table>incident</record_producer_table>
         <reference/>
-        <reference_qual/>
+        <reference_qual>javascript: 'name=incident^element=subcategory^inactive=false^dependent_value=' + current.variables.category</reference_qual>
         <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
@@ -77,24 +77,24 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-08 07:54:34</sys_created_on>
-        <sys_id>6f8946a2c32e2e106a8050e1b40131ac</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>category</sys_name>
-        <sys_package/>
+        <sys_created_on>2025-07-09 04:42:16</sys_created_on>
+        <sys_id>af5d422ac32e2e106a8050e1b4013199</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Subcategory</sys_name>
+        <sys_package display_value="ITSM Incident" source="x_1755675_itsm_inc">8897ca2ec3ea2e106a8050e1b4013135</sys_package>
         <sys_policy/>
         <sys_scope display_value="ITSM Incident">8897ca2ec3ea2e106a8050e1b4013135</sys_scope>
-        <sys_update_name>item_option_new_6f8946a2c32e2e106a8050e1b40131ac</sys_update_name>
+        <sys_update_name>item_option_new_af5d422ac32e2e106a8050e1b4013199</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-09 04:43:47</sys_updated_on>
+        <sys_updated_on>2025-07-09 04:48:50</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>5</type>
+        <type>18</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=6f8946a2c32e2e106a8050e1b40131ac"/>
-    <fx_price action="delete_multiple" query="id=6f8946a2c32e2e106a8050e1b40131ac"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=af5d422ac32e2e106a8050e1b4013199"/>
+    <fx_price action="delete_multiple" query="id=af5d422ac32e2e106a8050e1b4013199"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>6f8946a2c32e2e106a8050e1b40131ac</id>
+        <id>af5d422ac32e2e106a8050e1b4013199</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-08 07:54:35</sys_created_on>
-        <sys_id>5ef98ea2c32e2e106a8050e1b401310c</sys_id>
+        <sys_created_on>2025-07-09 04:42:16</sys_created_on>
+        <sys_id>0f87a6fec362ae106a8050e1b4013177</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-08 07:54:35</sys_updated_on>
+        <sys_updated_on>2025-07-09 04:42:16</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>6f8946a2c32e2e106a8050e1b40131ac</id>
+        <id>af5d422ac32e2e106a8050e1b4013199</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-07-08 07:54:35</sys_created_on>
-        <sys_id>12f98ea2c32e2e106a8050e1b401310c</sys_id>
+        <sys_created_on>2025-07-09 04:42:16</sys_created_on>
+        <sys_id>0f87a6fec362ae106a8050e1b4013176</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-08 07:54:35</sys_updated_on>
+        <sys_updated_on>2025-07-09 04:42:16</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
